@@ -8,7 +8,10 @@ https://github.com/bd808/php-unserialize-js
 
 Example:
 
-Input: a:3:{i:1;s:6:"elem 1";i:2;s:6:"elem 2";i:3;s:7:" elem 3";}
+Input: 
+```php
+a:3:{i:1;s:6:"elem 1";i:2;s:6:"elem 2";i:3;s:7:" elem 3";}
+```
 
 Output: 
 ```json
