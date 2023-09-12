@@ -11,13 +11,13 @@ Example:
 Input: a:3:{i:1;s:6:"elem 1";i:2;s:6:"elem 2";i:3;s:7:" elem 3";}
 
 Output: 
-
+```json
 {
     "1": "elem 1",
     "2": "elem 2",
     "3": " elem 3"
 }
-
+```
 
 ## Why?
 Brian said it better than I ever could:
