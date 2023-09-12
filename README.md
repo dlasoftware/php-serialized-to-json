@@ -2,7 +2,7 @@
 
 ## Features
 
-This extension is designed to convert selected php serialized data to json.  It uses php-unserialize-js by Bryan Davis.
+This VSCode Extension is designed to convert selected php serialized data to json.  It uses php-unserialize-js by Bryan Davis.
 
 https://github.com/bd808/php-unserialize-js
 
