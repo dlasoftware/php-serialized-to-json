@@ -23,13 +23,15 @@ function activate(context) {
             // Replace the selected text with the new text
             editor.edit((editBuilder) => {
                 selections.forEach((selection) => {
-                    editBuilder.replace(selection, JSON.stringify(unserialize(editor.document.getText(selection)), null, 4));
+					try {
+						editBuilder.replace(selection, JSON.stringify(unserialize(editor.document.getText(selection)), null, 4));
+					} catch(e) {
+
+					}
                 });
             });
         }
-
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Running!! Woot!');
+		
 	});
 
 	context.subscriptions.push(disposable);
